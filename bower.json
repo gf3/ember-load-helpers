@@ -1,0 +1,19 @@
+{
+  "name": "ember-load-helpers",
+  "main": "ember-load-helpers.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gf3/ember-load-helpers",
+  "authors": [
+    "Gianni Chiappetta <gianni@runlevel6.org>"
+  ],
+  "license": "UNLICENSE",
+  "ignore": [
+    "**/.*",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": ">=1.4 <2"
+  }
+}
