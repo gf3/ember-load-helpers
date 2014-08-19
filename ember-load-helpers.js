@@ -1,6 +1,6 @@
 (function() {
-  define('ember/load-helpers', ['ember'],
-    function(ember) {
+  define('ember/load-helpers', [],
+    function() {
       'use strict';
 
       return {
@@ -17,7 +17,7 @@
               throw new Error(moduleName + ' must export a helper.');
             }
 
-            ember.Handlebars.helper(shortName, module['default']);
+            Ember.Handlebars.helper(shortName, module['default']);
           });
         }
       };
