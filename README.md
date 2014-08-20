@@ -11,6 +11,16 @@ import loadHelpers from 'ember/load-helpers';
 loadHelpers('app-name');
 ```
 
+Don't forget to import ember load helpers in your Brocfile:
+
+``` javascript
+app.import('vendor/ember-load-helpers/ember-load-helpers.js', {
+  exports: {
+    'ember/load-helpers': ['default']
+  }
+});
+```
+
 ## License
 
 Ember load helpers is [UNLICENSED][unlicense].
