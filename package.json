@@ -1,0 +1,22 @@
+{
+  "name": "ember-load-helpers",
+  "version": "0.0.2",
+  "description": "Autoload and register ember helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gf3/ember-load-helpers.git"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "Gianni Chiappetta <gianni@runlevel6.org> (https://butt.zone)",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/gf3/ember-load-helpers/issues"
+  },
+  "homepage": "https://github.com/gf3/ember-load-helpers"
+}

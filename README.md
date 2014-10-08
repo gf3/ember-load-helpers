@@ -11,14 +11,14 @@ import loadHelpers from 'ember/load-helpers';
 loadHelpers('app-name');
 ```
 
-Don't forget to import ember load helpers in your Brocfile:
+Don't forget to add `ember-load-helpers` to **both** `package.json` and `bower.json`:
 
 ``` javascript
-app.import('vendor/ember-load-helpers/ember-load-helpers.js', {
-  exports: {
-    'ember/load-helpers': ['default']
+{
+  "dependencies": {
+    "ember-load-helpers": "~0.0.2"
   }
-});
+}
 ```
 
 ## License
