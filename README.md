@@ -16,7 +16,7 @@ Don't forget to add `ember-load-helpers` to **both** `package.json` and `bower.j
 ``` javascript
 {
   "dependencies": {
-    "ember-load-helpers": "~0.0.2"
+    "ember-load-helpers": "~0.0.3"
   }
 }
 ```

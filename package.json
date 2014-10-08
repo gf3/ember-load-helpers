@@ -1,6 +1,6 @@
 {
   "name": "ember-load-helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Autoload and register ember helpers",
   "main": "index.js",
   "scripts": {
